@@ -1,4 +1,4 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -64,77 +64,80 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 %----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Huge {Payam Yektamaram}} \\
-  \href{https://ca.linkedin.com/in/payamyek}{\faIcon{linkedin} www.linkedin.com/in/payamyek}  & Toronto, ON\\
-  \href{https://github.com/payamyek}{\faIcon{github} www.github.com/payamyek} & \href{payamyek@gmail.com}{payamyek@gmail.com}\\
-  \href{https://payamyek.ca}{\faIcon{laptop}  www.payamyek.com} & (647)-867-5038
-\end{tabular*}
+\textbf{\Huge Payam Yektamaram}\vspace{3pt}\\
+\href{payamyek@gmail.com}{payamyek@gmail.com} $\big|$ 647-867-5038 $\big|$ Toronto, Canada \vspace{3pt} \\
+\hspace{-6.4pt} \href{https://ca.linkedin.com/in/payamyek}{\faIcon{linkedin}www.linkedin.com/in/payamyek} \hspace{3pt} \href{https://github.com/payamyek}{\faIcon{github}www.github.com/payamyek} \hspace{3pt} \href{https://payamyek.ca}{\faIcon{laptop}www.payamyek.com} \\
 
 %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{Experiences}
   \resumeSubHeadingListStart
    \resumeSubheading
-      {Municipal Property Assessment Corporation}{Pickering, ON}
-      {Systems Developer}{(6 Months) Sep. 2022 - Present}
+      {Municipal Property Assessment Corporation}{Pickering, Ontario}
+      {Systems Developer}{September 2022 to Present}
       \resumeItemListStart
-        \item{ \small{ Diligently remedied data consistency and integrity issues caused by upstream database by carefully analyzing historical logs and data backups which led to the remediation of multiple bugs in core systems } }
-        \item{ \small{ Proactively protected crucial MPAC systems from potential library based vulnerabilities by continuously monitoring and updating project dependencies resulting in the 100\% removal of high risk system breaches }}
+        \item{ \small{ Project lead for cross-platform desktop application powered by Electron.js and React.js that enabled field workers to complete their tasks and assignments in poor internet environments } }
+        \item{ \small{ Designed system process for the batch pre-caching of API calls using Workbox's service worker modules to allow for the offline retrieval and access of API data  }}
+        \item {\small { Utilized modern web development tools and techniques such as Redux, Webpack, and CSS preprocessors to optimize the performance and maintainability of code }}
+        \item{ \small{ Facilitated daily standup meetings to align team objectives and collaborated with team members to prioritize tasks and deliverables }}
        \resumeItemListEnd
   
     \resumeSubheading
-      {Municipal Property Assessment Corporation}{Pickering, ON}
-      {Junior Co-op Systems Developer}{(12 Months) Jan. 2020 - Dec. 2020}
+      {Municipal Property Assessment Corporation}{Pickering, Ontario}
+      {Junior Systems Developer}{January 2020 to December 2020}
       \resumeItemListStart
-        \item{ \small{Abolished inconsistency of business data for MPAC micro-services by developing a Python RESTful micro-service known as the \textit{Lookup Service} which reduced data inconsistency by 100\% for three vital MPAC services}}
-        \item{ \small{Demolished the need for Business Analysts to concern system developers when business data required updates by creating a React.js frontend interface for the \textit{Lookup Service} saving developers and analysts hours of time}}
-        \item{\small{Prevented 99\% of application bugs for the \textit{Lookup Service} by developing a robust unit testing suite containing over 300 test cases covering 93\% of the codebase which drastically expedited the development process}}
-        \item{\small{Brought a vision for the new MPAC Insight workflow to life by developing dashboard module prototypes using React.js that was powered by Ontario housing data which was well received by upper management}}
+        \item{ \small{ Lead developer of a crucial Python asynchronous web server that acted as a CRUD REST API for AWS DocumentDB which centralized business data for dozens of internal systems }}
+        \item{ \small{ Lead designer of frontend interface built with React.js and Bootstrap that enabled internal employees to make efficient and quick updates to business domain knowledge }}
+        \item{\small{ Implemented authorization and authentication workflows for frontend and backend interfaces with signed JavaScript Web Tokens to safeguard systems from unprivileged accesses }}
+         \item{\small{ Implemented CI/CD pipelines for Docker-based applications which streamlined the deployment process to Kubernetes environments }}
        \resumeItemListEnd
   \resumeSubHeadingListEnd
     
 %-------- SKILLS ------------
 \section{Skills}
  \resumeSubHeadingListStart
- 	\resumeSubItem{Backend Technologies}{Node.js, Python, Java, SpringBoot, C, Rust, Groovy, Haskell}
- 	\resumeSubItem{Web Technologies}{JavaScript, TypeScript, React.js, React Native, Vue3, TailWind CSS, Bootstrap, CSS, Expo }
- 	\resumeSubItem{Database Technologies}{MongoDB, SQL, PostgreSQL, DocumentDB, Neo4J, SQLite}
- 	\resumeSubItem{Cloud Technologies}{Amazon Web Services, DigitalOcean, Docker, Rancher, Vercel }
+ 	\resumeSubItem{Languages}{Python, JavaScript, TypeScript, Java, C, Rust, SQL, Groovy, Haskell, HTML, CSS/SCSS}
+ 	\resumeSubItem{Libraries/Frameworks}{React.js, Node.js, Electron, Express, Spring Boot, React Native, Vue.js, TailWind CSS, Bootstrap, Exponent, Sanic}
+ 	\resumeSubItem{Tools/Technologies}{Amazon Web Services, NGINX, Docker, MongoDB, PostgreSQL, DocumentDB, Neo4J, SQLite, Rancher Kubernetes Management, Git, SVN}
  \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{Projects}
-  \resumeSubHeadingListStart
-  	\resumeSubItem{\href{https://github.com/UTSCC09/project-frontend-frauds}{Air Toronto \faIcon{github}}}{Comprehensive flight ticket booking system built with Vue3 that interacts with a Node.js backend that utilizes synchronous task queues with workers to process application webhooks and emails.}
-  	\resumeSubItem{Pawsup}{Mobile application that enabled clients to purchase pet services built with React Native through Expo to deliver mobile app for both Android and iOS environments.}
-    \resumeSubItem{\href{https://github.com/payamyek/Jeopardy}{Jeopardy \faIcon{github}}}
-      {Game of Jeopardy that allowed two teams to play a full fledged game with live score tracking that was built using React and Redux for state management.}
-     \resumeSubItem{\href{https://github.com/payamyek/portfolio-site}{Portfolio \faIcon{github}}}
-      {Personal portfolio site made using React.js utilizing TailWind CSS deployed on Vercel.}
-    \resumeSubItem{\href{https://github.com/payamyek/SupremeCarRentals}{Supreme Car Rentals \faIcon{github}}}
-      {Car rental application built using Java Swing powered by an embedded SQLite database which allowed clients to rent cars and receive an auto-generated printable PDF invoice with booking details.}
-      
+   \resumeSubHeadingListStart
+   \resumeSubheading
+      {Air Toronto}{Airplane Flight Booking System}
+      {\footnotesize{\href{https://github.com/UTSCC09/project-frontend-frauds}{github.com/UTSCC09/project-frontend-frauds}}}{\small{Vue.js, Node.js, OAuth, JavaScript, NGINX, MongoDB, Express}}
+      \resumeItemListStart
+       \item{ \small{ Leveraged Node.js to implement a robust REST API that facilitated CRUD operations on MongoDB collections }}
+       \item{ \small{ Enhanced user authentication security by implementing Google OAuth 2.0 as a trusted client, enabling users to securely log in using their existing Google credentials }}
+       \resumeItemListEnd
+   \resumeSubheading
+      {Pawsup}{Pet Services Marketplace}
+      {\footnotesize{Private Codebase}}{\small{React Native, Exponent, iOS, Android, JavaScript, MongoDB, Express }}
+      \resumeItemListStart
+       \item{ \small{ Utilized React Native and Node.js to develop a high-performance, cross-platform mobile application using the Exponent platform }}
+       \item{ \small{ Developed responsive web layouts that provided optimal layout flexibility across a range of mobile devices and platforms, using techniques such as Flexbox and CSS media queries }}
+       \resumeItemListEnd 
   \resumeSubHeadingListEnd
+
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University of Toronto}{Toronto, ON}
-      {Honours Bachelors of Science in Computer Science;  GPA: 3.89/4.00}{2022}
+      {University of Toronto}{Toronto, Ontario}
+      {Honours Bachelors of Science, Co-op Computer Science Specialist;  GPA: 3.89/4.00}{August 2022}
  \resumeSubHeadingListEnd
  
  %--------CERTIFICATES------------
-\section{Certificates}
- \resumeSubHeadingListStart
-   \item{\small{\textbf{Focus on Information Technology (FIT)}{ – Software Design and Development}} \hfill \textit{\small{Jun. 2018}}}
-   \item{\small{\vspace{-6pt} \textbf{Focus on Information Technology (FIT)}{ – Network Systems and Operations}} \hfill \textit{\small{Jun. 2018}} }
-   \item{\small{\vspace{-6pt} \textbf{Cisco}{ – IT Essentials}} \hfill \textit{\small{Jun. 2018}}}
- \resumeSubHeadingListEnd
+%\section{Certificates}
+% \resumeSubHeadingListStart
+%   \item{\small{\textbf{Focus on Information Technology (FIT)}{ – Software Design and Development}} \hfill \textit{\small{June 2018}}}
+%   \item{\small{\vspace{-6pt} \textbf{Focus on Information Technology (FIT)}{ – Network Systems and Operations}} \hfill \textit{\small{June 2018}} }
+%   \item{\small{\vspace{-6pt} \textbf{Cisco}{ – IT Essentials}} \hfill \textit{\small{June 2018}}}
+% \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
